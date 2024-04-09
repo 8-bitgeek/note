@@ -1,4 +1,4 @@
-### 基本用法
+### 1. 基本用法
 
 ```shell
 gcc -E -o hello.i hello.c               # 对 hello.c 进行预处理, 生成 hello.i 文件
