@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md",
+                "file": "Linux 常用命令/编译链接/gcc 命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md",
+                "file": "Linux 常用命令/编译链接/gcc 命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md",
+                "file": "Linux 常用命令/编译链接/gcc 命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md"
+                "file": "Linux 常用命令/编译链接/gcc 命令.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "c2c7b8e2e526afd5",
   "lastOpenFiles": [
-    "Linux 常用命令/nmap 命令.md",
     "Linux 常用命令/mount 命令.md",
+    "Linux 常用命令/编译链接/gcc 命令.md",
+    "Linux 常用命令/编译链接",
+    "Linux 常用命令/nmap 命令.md",
     "Linux 常用命令/dd 命令.md",
     "README.MD",
     "Linux 常用命令.md",
