@@ -1,5 +1,7 @@
 ## 1. 基本用法
 
-```bash
+```shell
 objdump <option(s)> <file(s)>
 ```
+
+常用的
