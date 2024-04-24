@@ -11,4 +11,10 @@ objcopy [option(s)] <in_file> [out_file]
 - `-R sectionname`: 去掉由 sectionname 指定的 section, 可以指定多次
 - `-S, --strip-all`: 去掉源文件的符号信息和 relocation 信息
 - `-g, --strip_debug`: 去掉源文件中的调试符号信息和相关的段. 对使用 -g 编译生成的可执行文件执行之后, 生成的结果几乎和不使用 -g 进行编译生成的可执行文件一样
-- `-K symbolname`
+- `-K symbolname`: 保留由 symbolname 指定的符号信息
+- `-N symbolname`: 去掉由 symbolname 指定的符号信息
+- `--set-start val`: 设定新文件的 start address
+- `--change-start incr`: 调整 start address
+- `--adjust-start incr`
+- `--change-address incr  --adjust-vma incr`: 调整所有 sections 的 VMA(virtual memory address) 和
+- `--change-section-address section{=|+|-}val`
