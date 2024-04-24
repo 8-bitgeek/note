@@ -16,5 +16,7 @@ objcopy [option(s)] <in_file> [out_file]
 - `--set-start val`: 设定新文件的 start address
 - `--change-start incr`: 调整 start address
 - `--adjust-start incr`
-- `--change-address incr  --adjust-vma incr`: 调整所有 sections 的 VMA(virtual memory address) 和
-- `--change-section-address section{=|+|-}val`
+- `--change-address incr  --adjust-vma incr`: 调整所有 sections 的  LMA(linear memory address) 和 VMA(virtual memory address)
+- `--change-section-address section{=,+,-}val --adjust-section-vma section{=,+,-}val`: 调整指定 section 的 LMA/VMA
+- `--set-section-flags section=flag`: 指定 section 的 flag, flag 的取值可以是: alloc, contents, load, noload, readonly, code, data, rom, share, debug
+- `--rename-section oldname=newname[,flags]`: 更改 section 的名
