@@ -4,7 +4,7 @@ objcopy [option(s)] <in_file> [out_file]
 ```
 
 常用选项: 
-- `-I bfdname`: 指定输入文件的 bfdname
+- `-I bfdname`: 指定输入文件的 bfdname, 而不是由程序自动推断, 取值: elf32-little, elf32-big, 可用 [[objdump 命令]] -I 查看相应的信息
 - `-O bfdname`: 指定输出文件的 bfdname
 - `-R sectionname`: 只将指定的 section 拷贝到输出文件, 可以指定多次
 - `-S, --strip-all`: 不从源文件中拷贝符号信息和 relocation 信息
