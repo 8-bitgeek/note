@@ -26,3 +26,7 @@ sudo vi /etc/fstab
 sudo mount -a
 ```
 ### 5. 挂载 smaba 共享目录
+
+```shell
+sudo mount -t cifs -o username=user,password=pass,iocharset=utf-8 //server/{share_name} {local_dir}
+```
