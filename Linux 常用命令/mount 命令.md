@@ -11,13 +11,7 @@ mount --bind old_dir new_dir                # 绑定
 mount --move old_dir new_dir                # 取消绑定
 ```
 
-### 3. 挂载 samba 分区
-
-```shell
-mount -t smbfs -o username=root,password=xxx,codepage=936,iocharset=gc2312 //192.168.192.1/share /mnt/share
-```
-
-### 4. 以用户可读写的形式自动挂载 exfat 格式的分区
+### 3. 以用户可读写的形式自动挂载 exfat 格式的分区
 ```shell
 sudo vi /etc/fstab
 # 添加如下信息
@@ -25,8 +19,8 @@ sudo vi /etc/fstab
 # 自动挂载
 sudo mount -a
 ```
-### 5. 挂载 smaba 共享目录
+### 4. 普通用户挂载 smaba 共享目录
 
 ```shell
-sudo mount -t cifs -o username=user,password=pass,iocharset=utf-8 //server/{share_name} {local_dir}
+sudo mount -t cifs -o username=user,password=pass,uid=1000,gid=1000,iocharset=utf-8 //server/{share_name} {local_dir}
 ```
