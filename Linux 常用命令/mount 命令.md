@@ -19,8 +19,9 @@ sudo vi /etc/fstab
 # 自动挂载
 sudo mount -a
 ```
+
 ### 4. 普通用户挂载 smaba 共享目录
 
 ```shell
-sudo mount -t cifs -o username=user,password=pass,uid=1000,gid=1000,iocharset=utf-8 //server/{share_name} {local_dir}
+sudo mount -t cifs -o username=user,password=pass,uid=1000,gid=1000,iocharset=utf8 //server/{share_name} {local_dir}
 ```
