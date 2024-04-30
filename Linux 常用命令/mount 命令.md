@@ -25,3 +25,4 @@ sudo vi /etc/fstab
 # 自动挂载
 sudo mount -a
 ```
+### 5. 挂载 smaba 共享目录
