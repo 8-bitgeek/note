@@ -19,3 +19,8 @@ objdump <option(s)> <file(s)>
 ```shell
 objdump -m i8086 -b binary -D bootsect
 ```
+#### 2.2 从指定偏移处开始反汇编
+
+```shell
+objdump -m i8086 -b binary --start-address=0x20 -D setup
+```
