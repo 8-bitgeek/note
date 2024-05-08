@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md",
+                "file": "Linux 常用命令/objdump 命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md",
+                "file": "Linux 常用命令/objdump 命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md",
+                "file": "Linux 常用命令/objdump 命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux 常用命令/mount 命令.md"
+                "file": "Linux 常用命令/objdump 命令.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "c2c7b8e2e526afd5",
   "lastOpenFiles": [
+    "Linux 常用命令/mount 命令.md",
     "Linux 常用命令/losetup 命令.md",
     "Linux 常用命令/编译链接/Make 工具使用及语法.md",
     "Linux 常用命令/objdump 命令.md",
-    "Linux 常用命令/mount 命令.md",
     "docker 服务/Samba 服务.md",
     "docker 服务",
     "Linux 常用命令/dd 命令.md",
