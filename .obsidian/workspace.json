@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "92c5604594a1412a",
+        "id": "cdedc652cfa8cd31",
         "type": "tabs",
         "children": [
           {
-            "id": "c2c7b8e2e526afd5",
+            "id": "1d1936204152ab7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux 常用命令/objcopy 命令.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux 常用命令/objcopy 命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux 常用命令/objcopy 命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Linux 常用命令/objcopy 命令.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2c7b8e2e526afd5",
+  "active": "1d1936204152ab7f",
   "lastOpenFiles": [
-    "Linux 常用命令/objdump 命令.md",
     "Linux 常用命令/objcopy 命令.md",
+    "Linux 常用命令/objdump 命令.md",
     "Linux 常用命令/编译链接/Make 工具使用及语法.md",
     "Linux 常用命令/编译链接/gcc 命令.md",
     "Linux 常用命令/编译链接/GDB 调试工具.md",
