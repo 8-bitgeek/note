@@ -14,7 +14,12 @@ objdump <option(s)> <file(s)>
 - `-h`: 显示所有 section header 中的 sections 信息
 - `-g`: 显示目标文件的 debug 信息
 - `-f`: 显示目标文件的文件头信息
+- `-j`: 只显示指定区的信息
 ### 2. 示例
+
+### 2.1 反汇编 .text 区的代码
+
+
 #### 2.1 反汇编裸二进制文件
 
 ```shell
