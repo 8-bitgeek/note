@@ -17,9 +17,11 @@ objdump <option(s)> <file(s)>
 - `-j`: 只显示指定区的信息
 ### 2. 示例
 
-### 2.1 反汇编 .text 区的代码
+#### 2.1 反汇编 .text 区的代码
 
-
+```shell
+objdump -j .text -d ./hello
+```
 #### 2.1 反汇编裸二进制文件
 
 ```shell
