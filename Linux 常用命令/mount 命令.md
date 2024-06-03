@@ -13,13 +13,13 @@ mount --move old_dir new_dir                # 取消绑定
 sudo umount new_dir
 ```
 
-### 3. 以用户可读写的形式自动挂载 exfat 格式的分区
+### 3. 以用户可读写的形式开机自动挂载 exfat 格式的分区
 ```shell
 sudo vi /etc/fstab
-# 添加如下信息
+# 自动挂载块设备到某个目录下
 /dev/sda1 /home/gldwolf/data exfat defaults,uid=1000,gid=1000 0 0
-# 目录绑定
-/mnt/sda1/downloads /mnt/sda1/jellyfin/videos exfat
+# 自动目录绑定
+/mnt/sda1/downloads /mnt/sda1/jellyfin/videos exfat defaults,bind,uid=1000,gid=1000 0 0
 # 自动挂载
 sudo mount -a
 ```
