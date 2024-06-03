@@ -18,6 +18,8 @@ sudo umount new_dir
 sudo vi /etc/fstab
 # 添加如下信息
 /dev/sda1 /home/gldwolf/data exfat defaults,uid=1000,gid=1000 0 0
+# 目录绑定
+/mnt/sda1/downloads /mnt/sda1/jellyfin/videos exfat
 # 自动挂载
 sudo mount -a
 ```
