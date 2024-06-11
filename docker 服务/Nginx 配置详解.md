@@ -35,7 +35,7 @@ http {           # http 块
 - 4、**server 块**：配置虚拟主机的相关参数，一个 http 中可以有多个 server。
 - 5、**location 块**：配置请求的路由，以及各种页面的处理情况。
 
-
+示例配置文件: 
 ```
 ########### 每个指令必须有分号结束。#################
 #user administrator administrators;  #配置用户或者组，默认为nobody nobody。
