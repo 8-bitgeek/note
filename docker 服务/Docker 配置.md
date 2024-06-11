@@ -1,6 +1,6 @@
 ## 1. 配置 daemon 代理
 
-在 docker v23.0 及以后, 可以通过配置 daemon.json 来实现 daemon 的代理: 
+在 docker v23.0 及以后, 可以通过配置 daemon.json 来实现 daemon 的代理, daemon.json 文件可以是 /etc/docker/daemon.json, ~/.config/docker/daemon.json: 
 
 ```json
 {
