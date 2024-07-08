@@ -7,6 +7,7 @@ version: '3'
 networks:
 	my-net:
 		driver: bridge
+		external: true                 # 是否是已经创建的网络
 
 volumes:
 	my-data:
@@ -27,5 +28,9 @@ services:
 	    extra_hosts:
 		    - 'hs:192.168.192.1'
 		networks:
-			- 
+			my-net: 
+					ipv4_address: 192.168.192.88  
+		volumes:
+			- my-data:/var/lib/my-service
+			- /var/log/my-service:/var/log/my-service
 ```
