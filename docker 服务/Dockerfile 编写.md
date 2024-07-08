@@ -1,9 +1,10 @@
-
+Dockerfile 用于构建一个镜像
 
 ```Dockerfile
 FROM ubuntu:22.04
 LABEL image.author="gldwolf"
 RUN apt update -y && apt upgrade -y && apt install bin86
-
-
+COPY target/docker-image.jar /web/services/
+CMD ["--server.port", "8080"]                             # 传递参数给 ENTRYPOINT
+ENTRYPOINT ["java", "-jar", "docker-image.jar"]
 ```
