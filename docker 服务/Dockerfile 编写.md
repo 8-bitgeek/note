@@ -1,4 +1,7 @@
-Dockerfile 用于构建一个镜像
+> Dockerfile 用于构建一个镜像.
+
+
+## 1. 编写 Dockerfile
 
 ```Dockerfile
 FROM ubuntu:22.04
@@ -10,5 +13,10 @@ ENTRYPOINT ["java", "-jar", "docker-image.jar"]       # 容器要执行的程序
 ENV JAVA_HOME /usr/bin/jdk-1.8/
 EXPOSE 8080 8081 ...
 WORKDIR /web/services                                 # 指定工作目录
+```
 
+## 2. 构建镜像
+
+```shell
+docker build -t gldwolf.cn/test-dockerfile:v3 .
 ```
