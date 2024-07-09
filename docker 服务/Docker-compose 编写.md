@@ -46,5 +46,6 @@ services:
 			driver: json-file/syslog/none
 			options:
 				syslog-address: "tcp://192.168.192.200:3000"
-				
+				max-size: '10m'    # 每个文件最大 10m
+				max-file: 10       # 最多 10 个文件
 ```
