@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cdedc652cfa8cd31",
+        "id": "34c1eabc72b1a9d4",
         "type": "tabs",
         "children": [
           {
-            "id": "1d1936204152ab7f",
+            "id": "565fa28d0a96027a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker 服务/Docker-compose 编写.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker 服务/Docker-compose 编写.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker 服务/Docker-compose 编写.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docker 服务/Docker-compose 编写.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d1936204152ab7f",
+  "active": "565fa28d0a96027a",
   "lastOpenFiles": [
-    "docker 服务/Dockerfile 编写.md",
     "docker 服务/Docker-compose 编写.md",
+    "docker 服务/Dockerfile 编写.md",
     "docker 服务/Docker 配置.md",
     "docker 服务/Samba 服务.md",
     "docker 服务/Nginx 配置详解.md",
