@@ -39,4 +39,7 @@ services:
 		volumes:
 			- my-data:/var/lib/my-service
 			- /var/log/my-service:/var/log/my-service
+		devices:
+			- /dev/dri/card0:/dev/dri/card0
+			- /dev/dri/render0128:/dev/dri/render0128
 ```
