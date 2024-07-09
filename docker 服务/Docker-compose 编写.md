@@ -42,4 +42,6 @@ services:
 		devices:
 			- /dev/dri/card0:/dev/dri/card0
 			- /dev/dri/render0128:/dev/dri/render0128
+		logging:
+			driver:
 ```
