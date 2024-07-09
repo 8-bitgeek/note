@@ -29,9 +29,13 @@ services:
 			- '--server.port=8080'      # 替换 Dockerfile 中的 CMD 中的参数
 	    extra_hosts:
 		    - 'hs:192.168.192.1'
+		depends_on:
+			- mysql
+			- redis
 		networks:
 			my-net: 
 				ipv4_address: 192.168.192.88  # 指定 ip 
+			- my-net2
 		volumes:
 			- my-data:/var/lib/my-service
 			- /var/log/my-service:/var/log/my-service
