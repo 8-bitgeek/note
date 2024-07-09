@@ -43,5 +43,8 @@ services:
 			- /dev/dri/card0:/dev/dri/card0
 			- /dev/dri/render0128:/dev/dri/render0128
 		logging:
-			driver:
+			driver: json-file/syslog/none
+			options:
+				syslog-address: "tcp://192.168.192.200:3000"
+				
 ```
