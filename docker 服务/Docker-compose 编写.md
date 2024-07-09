@@ -42,6 +42,13 @@ services:
 		devices:
 			- /dev/dri/card0:/dev/dri/card0
 			- /dev/dri/render0128:/dev/dri/render0128
+		deploy:
+			resource: 
+				limits: 
+					cpus: '0.50'
+					memory: 512M
+				reservations:
+					memory: 200M            # 最少需要 200M 内存
 		logging:
 			driver: json-file/syslog/none
 			options:
