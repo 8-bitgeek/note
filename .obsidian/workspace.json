@@ -11,8 +11,12 @@
             "id": "2af705a6c98af1b5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git 常用命令.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git 常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git 常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git 常用命令.md"
+              }
             }
           }
         ]
@@ -140,6 +148,7 @@
   },
   "active": "2af705a6c98af1b5",
   "lastOpenFiles": [
+    "Git 常用命令.md",
     "docker 服务/Dockerfile 编写.md",
     "docker 服务/Docker-compose 编写.md",
     "docker 服务/Docker 配置.md",
